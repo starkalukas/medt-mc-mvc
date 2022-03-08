@@ -1,0 +1,30 @@
+[
+  {
+    "title": "LeoBot",
+    "description": "A ML Bot for the HTL Leonding",
+    "author": "Lukas Starka, Felix Dumfarth",
+    "subject": "DA",
+    "link": "http://leobot.htl-leonding.ac.at"
+  },
+  {
+    "title": "Leonie",
+    "description": "An artificial intelligence and the avatar of the HTL Leonding",
+    "author": "Jonas Dorfinger, Sebastian Scholl, Lukas Starka, Nina Weissengruber, Jonas Wiesinger",
+    "subject": "ITP",
+    "link": "https://leonie.htl-leonding.ac.at/"
+  },
+  {
+    "title": "Dartzone",
+    "description": "A Website to practice darts and improve your game",
+    "author": "Lukas Starka",
+    "subject": "MEDT",
+    "link": "https://starkalukas.github.io/Dartzone/"
+  },
+  {
+    "title": "Leobot Website",
+    "description": "A website for Leobot written in Hugo",
+    "author": "Lukas Starka",
+    "subject": "MC",
+    "link": "https://starkalukas.github.io/medt-hugo-example/"
+  }
+]

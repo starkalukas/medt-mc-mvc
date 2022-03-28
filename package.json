@@ -12,5 +12,9 @@
   "license": "ISC",
   "devDependencies": {
     "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "immer": "^9.0.12",
+    "rxjs": "^7.5.5"
   }
 }

@@ -1,3 +1,5 @@
+import projectStore from "./store/project-store";
+
 const URL = "./project-data.json"
 
 class ParentComponent extends HTMLElement {
@@ -7,10 +9,10 @@ class ParentComponent extends HTMLElement {
     }
 
     async download() {
-        var response = await fetch(URL);
-        var todos = await response.json();
-        console.log(todos);
-        return todos;
+        const response = await fetch(URL);
+        const projects = await response.json();
+        console.log(projects);
+        return projects;
     }
 
     constructor() {
@@ -18,11 +20,11 @@ class ParentComponent extends HTMLElement {
         console.log('HelloComponent constructor');
         this.attachShadow({ mode: 'open' });
 
-        this.download().then(r => {
+        projectStore.model.subscribe(value => {
             const ul = document.createElement('ul');
             this.shadowRoot.appendChild(ul);
 
-            for (const json of r) {
+            for (const json of value) {
                 const child = document.createElement('list-component');
                 const li = document.createElement('li');
 

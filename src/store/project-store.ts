@@ -23,4 +23,4 @@ class ProjectStore {
     }
 }
 
-export default new ProjectStore()
+export default new ProjectStore();
